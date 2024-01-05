@@ -1,5 +1,5 @@
 import TalentStyle from '../../styles/Talent.module.css';
-import Tree from './Tree';
+
 import Image from 'next/image';
 
 import pro from '../../styles/Procss.module.css';
