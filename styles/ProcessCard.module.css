@@ -61,3 +61,21 @@ color: #36454F;
     background-color: aliceblue;
     border-radius: 50px;
 }
+@media screen and (max-width: 800px)
+{
+    .process_conatiner
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+    .heading{
+         text-align: center;
+    }
+    .description{
+        text-align: center;
+        width: 75%;
+    }
+}

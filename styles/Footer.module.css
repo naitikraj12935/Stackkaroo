@@ -20,6 +20,15 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 900px)
+{
+    .component{
+        
+        width: 100%;
+        position: relative;
+        top: -20%;
+    }
+}
 
 
 

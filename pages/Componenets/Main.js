@@ -9,7 +9,7 @@ export default function Main() {
       
       <Image className={styles.main_conatiner}
       src="/employee.png"
-      width={500}
+      width={400}
       height={400}
       alt="Picture of the author"
       />

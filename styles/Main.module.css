@@ -107,4 +107,129 @@ color: #FFFFFF;
 
 
 
+/* Main.module.css */
 
+/* Define your initial styles */
+
+/* ... (previous CSS code) ... */
+
+/* Media queries for responsiveness */
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+  .main_component {
+    padding-top: 1rem; /* Adjust top padding for smaller screens */
+  }
+
+  .main_conatiner {
+    /* Adjust Image container styles for smaller screens */
+    width: 80%; /* Adjust image width for smaller screens */
+    margin-top: 1rem; /* Adjust margin-top for smaller screens */
+  }
+
+  .heading {
+    font-size: 32px; /* Adjust heading font size for smaller screens */
+    line-height: 40px; /* Adjust heading line height for smaller screens */
+  }
+
+  .main_content {
+    font-size: 18px; /* Adjust main content font size for smaller screens */
+    line-height: 24px; /* Adjust main content line height for smaller screens */
+    padding: 0rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .main_btn {
+    width: 140px; /* Adjust button width for smaller screens */
+    height: 40px; /* Adjust button height for smaller screens */
+    font-size: 12px; /* Adjust button font size for smaller screens */
+    line-height: 16px; /* Adjust button line height for smaller screens */
+    border-radius: 20px; /* Adjust button border radius for smaller screens */
+    margin: 0.5rem 0rem; /* Adjust button margin for smaller screens */
+  }
+}
+
+/* For even smaller screens */
+@media screen and (max-width: 480px) {
+  .main_component {
+    padding-top: 0.5rem; 
+    width: 100%;/* Further adjust top padding for even smaller screens */
+  }
+
+  .main_conatiner {
+    /* Further adjust Image container styles for even smaller screens */
+    width: 90%; /* Further adjust image width for even smaller screens */
+    margin-top: 0.5rem; /* Further adjust margin-top for even smaller screens */
+  }
+
+  .heading {
+    font-size: 24px; /* Further adjust heading font size for even smaller screens */
+    line-height: 32px; /* Further adjust heading line height for even smaller screens */
+  }
+
+  .main_content {
+    font-size: 16px; /* Further adjust main content font size for even smaller screens */
+    line-height: 22px; /* Further adjust main content line height for even smaller screens */
+    padding: 0rem 0.5rem; /* Further adjust padding for even smaller screens */
+  }
+
+  .main_btn {
+    width: 120px; /* Further adjust button width for even smaller screens */
+    height: 35px; /* Further adjust button height for even smaller screens */
+    font-size: 10px; /* Further adjust button font size for even smaller screens */
+    line-height: 14px; /* Further adjust button line height for even smaller screens */
+    border-radius: 15px; /* Further adjust button border radius for even smaller screens */
+    margin: 0.3rem 0rem; /* Further adjust button margin for even smaller screens */
+  }
+}
+
+/* Define your initial styles */
+
+/* ... (previous CSS code) ... */
+
+/* Media queries for responsiveness */
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 32px; /* Adjust heading font size for smaller screens */
+    line-height: 40px; /* Adjust heading line height for smaller screens */
+  }
+
+  .main_content {
+    font-size: 18px; /* Adjust main content font size for smaller screens */
+    line-height: 24px; /* Adjust main content line height for smaller screens */
+    padding: 0rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .main_btn {
+    width: 140px; /* Adjust button width for smaller screens */
+    height: 40px; /* Adjust button height for smaller screens */
+    font-size: 12px; /* Adjust button font size for smaller screens */
+    line-height: 16px; /* Adjust button line height for smaller screens */
+    border-radius: 20px; /* Adjust button border radius for smaller screens */
+    margin: 0.5rem 0rem; /* Adjust button margin for smaller screens */
+  }
+}
+
+/* For even smaller screens */
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 24px; /* Further adjust heading font size for even smaller screens */
+    line-height: 32px; /* Further adjust heading line height for even smaller screens */
+  }
+
+  .main_content {
+    font-size: 16px; /* Further adjust main content font size for even smaller screens */
+    line-height: 22px; /* Further adjust main content line height for even smaller screens */
+    padding: 0rem 0.5rem; /* Further adjust padding for even smaller screens */
+  }
+
+  .main_btn {
+    width: 120px; /* Further adjust button width for even smaller screens */
+    height: 35px; /* Further adjust button height for even smaller screens */
+    font-size: 10px; /* Further adjust button font size for even smaller screens */
+    line-height: 14px; /* Further adjust button line height for even smaller screens */
+    border-radius: 15px; /* Further adjust button border radius for even smaller screens */
+    margin: 0.3rem 0rem; /* Further adjust button margin for even smaller screens */
+  }
+}

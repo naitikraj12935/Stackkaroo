@@ -114,3 +114,10 @@ color: #36454F;
     align-items: center;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 800px)
+{
+    .bench{
+        margin-bottom: 15rem;
+    }
+}

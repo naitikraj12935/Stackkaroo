@@ -1,0 +1,27 @@
+.container
+{
+
+}
+
+@media screen and (min-width: 900px) {
+    /* Hide the responsive content for larger screens */
+    .img1 {
+      display: none;
+    }
+  }
+  
+  /* For smaller screens */
+  @media screen and (max-width: 900px) {
+    /* Hide the main content for smaller screens */
+    .img1{
+        display: block;
+    }
+   
+
+    .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+  }

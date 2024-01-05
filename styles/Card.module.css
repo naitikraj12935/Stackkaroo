@@ -60,3 +60,39 @@ overflow: hidden;
 
 
 }
+@media screen and (max-width: 768px) {
+    .Card_component {
+      width: 80%; /* Adjust width for smaller screens */
+      padding: 1rem; /* Adjust padding for smaller screens */
+      height: auto; /* Allow height to adjust based on content for smaller screens */
+      margin-bottom: 0.5rem; /* Adjust margin-bottom for smaller screens */
+    }
+  
+    .Card_heading {
+      font-size: 18px; /* Adjust heading font size for smaller screens */
+      line-height: 24px; /* Adjust heading line height for smaller screens */
+    }
+  
+    .Card_description {
+      font-size: 10px; /* Adjust description font size for smaller screens */
+      line-height: 20px; /* Adjust description line height for smaller screens */
+    }
+  }
+  
+  /* For even smaller screens */
+  @media screen and (max-width: 600px) {
+    .Card_component {
+      width: 90%; /* Further adjust width for even smaller screens */
+      padding: 0.5rem; /* Further adjust padding for even smaller screens */
+    }
+  
+    .Card_heading {
+      font-size: 16px; /* Further adjust heading font size for even smaller screens */
+      line-height: 20px; /* Further adjust heading line height for even smaller screens */
+    }
+  
+    .Card_description {
+      font-size: 8px; /* Further adjust description font size for even smaller screens */
+      line-height: 16px; /* Further adjust description line height for even smaller screens */
+    }
+  }

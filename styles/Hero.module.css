@@ -6,8 +6,7 @@ position: relative;
 width: 100%;
 padding-top: 2rem;
 padding-bottom: 3rem;
-left: 0px;
-top: 0px;
+
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -41,4 +40,19 @@ color: #E68F50;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px)
+{
+    .Hero_body{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+  .Hero_component{
+   
+  }
 }

@@ -71,3 +71,17 @@ transform: rotate(90deg);
     
     margin-top:2rem; 
 }
+
+@media screen and (max-width: 800px)
+{
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .line{
+        display: none;
+    }
+}
