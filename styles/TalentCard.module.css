@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    /* Rectangle 468 */
+
+box-sizing: border-box;
+margin-left: 2rem;
+
+width: 200px;
+height: 300px;
+position: relative;
+
+background: #FFFFFF;
+border-width: 1.5px 0px 0px 1.5px;
+border-style: solid;
+border-color: rgba(54, 69, 79, 0.15);
+box-shadow: 8px 8px 10px rgba(54, 69, 79, 0.15);
+border-radius: 25px;
+padding: 1rem;
+
+}
+.description
+{
+    /* Talent Specialists will contact you within 2 working hours after you share the job description with us including roles, responsibilities, skills, experience, and budget. */
+
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.02em;
+text-align: center;
+
+color: #36454F;
+
+
+}
+.heading
+{
+    /* Ellipse 51 */
+
+position: absolute;
+
+height: 4rem;
+width: 4rem;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+top:-2rem;
+border-radius: 50%;
+font-size: 24px;
+background: #FFFFFF;
+color: #36454F;
+box-shadow: 4px 4px 10px rgba(54, 69, 79, 0.15);
+/* 1 */
+
+
+
+
+
+
+}
+.title
+{
+    /* Share the Job Description with us */
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #749dee;
+
+
+}

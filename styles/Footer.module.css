@@ -1,0 +1,25 @@
+.container
+{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+/* Rectangle 475 */
+.component
+{
+    position: relative;
+    top: 370px;
+    padding: 3rem 0rem;
+    background: linear-gradient(94.15deg, rgba(10, 86, 241, 0.1) 3.38%, rgba(230, 143, 80, 0.1) 96.62%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+

@@ -1,0 +1,110 @@
+/* Main.module.css */
+
+
+.main_component
+{
+    /* Rectangle 407 */
+
+position: relative;
+width: 100%;
+padding-top: 2rem;
+left: 0px;
+top: 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+background: linear-gradient(180deg, rgba(10, 86, 241, 0.15) 0%, rgba(10, 86, 241, 0) 100%);
+
+}
+.main_container {
+    
+
+  margin-top: 2rem;
+
+
+  }
+  .heading
+  {
+    /* Experience Seamless Hiring */
+
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.025em;
+    
+    color: #0A56F1;
+
+
+  }
+  /* Rectangle 408 */
+  .subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(10, 86, 241, 0) 0%, rgba(10, 86, 241, 0.15) 100%);
+  }
+  .main_content{
+    padding: 0rem 2rem;
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.015em;
+    text-align: center;
+    color: #36454F;
+
+  }
+
+  .main_btn{
+    /* Rectangle 410 */
+border:none;
+
+width: 170px;
+
+height: 50px;
+background: #E68F50;
+margin: 1rem 0rem;
+
+border-radius: 25px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+  }
+  .main_btn:hover{
+    scale:0.9;
+    cursor: pointer;
+  }
+
+
+/* STACKKAROO is a hiring platform that picks the best of IT & Non-IT fields as well as web development, digital marketing, data science, business development, human resource, content writing, advertising and much more in India. Their communication skills, fit for culture, and ability to be ethical for global work will be assessed. */
+
+/* Experience Seamless Hiring */
+
+
+/* “Connecting Global Companies with the Best Indian Talent” */
+/* Group 392 */
+
+
+
+
+
+
+
+
+
+

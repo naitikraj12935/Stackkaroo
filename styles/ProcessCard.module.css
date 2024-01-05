@@ -1,0 +1,63 @@
+.process_conatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 1rem;
+  
+}
+.heading{
+    /* Profile Screening and Shortlisting */
+
+
+width: 206px;
+height: 64px;
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 32px;
+display: flex;
+align-items: center;
+letter-spacing: 0.025em;
+
+color: #0A56F1;
+
+
+}
+
+.description{
+    /* Rectangle 475 */
+
+
+    width: 50%;
+    /* Rectangle 475 */
+
+    text-align: justify;
+    /* We evaluate applications based on minimum criteria, professional experience, and background checks of candidates. */
+
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+letter-spacing: 0.03em;
+
+color: #36454F;
+
+
+}
+.Bordering
+{
+    border:double;
+    border-color: black;
+    border-width: 8px;
+    z-index: 200;
+    padding: 1rem;
+    background-color: aliceblue;
+    border-radius: 50px;
+}

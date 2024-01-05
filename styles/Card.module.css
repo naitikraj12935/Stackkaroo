@@ -1,0 +1,62 @@
+.Card_component{
+    /* Rectangle 460 */
+height: 200px;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 40%;
+padding: 2rem;
+margin-bottom: 1rem;
+
+
+background: #FFFFFF;
+border-width: 1px 1px 0px 1px;
+border-style: solid;
+border-color: rgba(54, 69, 79, 0.25);
+box-shadow: 0px 8px 10px rgba(54, 69, 79, 0.15);
+border-radius: 25px;
+
+}
+.Card_heading{
+    /* Talent Matchmaker */
+
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #0A56F1;
+
+
+}
+.Card_description
+{
+    /* The company pays a fee for talent hire based on salary and role difficulty. The talent is not charged a fee. */
+
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #36454F;
+overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+
+
+}
