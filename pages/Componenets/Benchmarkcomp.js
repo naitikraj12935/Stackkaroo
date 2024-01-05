@@ -9,8 +9,8 @@ export default function Benchmarkcomp({obj}) {
       
       </li>
       <div className={temp.combine}>
-      <div className={temp.title}>{obj.title}</div>
-      <div className={temp.description}>{obj.description}</div>
+      <div className={temp.title}>{obj?.title}</div>
+      <div className={temp.description}>{obj?.description}</div>
       </div>
       
     </div>
